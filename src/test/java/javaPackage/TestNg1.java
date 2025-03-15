@@ -7,7 +7,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 public class TestNg1 {
-	
+	WebDriver driver;
 
 	@Test
 	public void Test1(){
@@ -31,6 +31,7 @@ public class TestNg1 {
 	@AfterMethod
 	public void Test4() {
 		System.out.println("Hello Test 4");
+		driver.quit();
 
 }
 

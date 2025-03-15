@@ -1,4 +1,4 @@
-package MyTest;
+package javaPackage;
 
 import java.time.Duration;
 
