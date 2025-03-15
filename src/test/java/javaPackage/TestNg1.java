@@ -11,6 +11,7 @@ public class TestNg1 {
 
 	@Test
 	public void Test1(){
+		System.out.println("Hello Test 1");
 		
 	}
 	
@@ -30,8 +31,8 @@ public class TestNg1 {
 	
 	@AfterMethod
 	public void Test4() {
-		System.out.println("Hello Test 4");
-		driver.quit();
+		//System.out.println("Hello Test 4");
+		driver.close();
 
 }
 
